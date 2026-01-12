@@ -1,7 +1,27 @@
+@import './fonts.css';
+@import './theme.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import './fonts.css';
-@import './tailwind.css';
-@import './theme.css';
+/* Estilos Base */
+@layer base {
+  * {
+    @apply border-border; 
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html { font-size: 16px; }
+  
+  h1 { @apply text-2xl font-medium leading-relaxed; }
+  h2 { @apply text-xl font-medium leading-relaxed; }
+  h3 { @apply text-lg font-medium leading-relaxed; }
+  h4 { @apply text-base font-medium leading-relaxed; }
+  
+  label, button { @apply text-base font-medium leading-relaxed; }
+  input { @apply text-base font-normal leading-relaxed; }
+}
