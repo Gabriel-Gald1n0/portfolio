@@ -7,7 +7,7 @@ export const translations = {
       quests: 'QUESTS',
       contact: 'CONTACT',
     },
-    logo: 'DEV.HERO',
+    logo: 'DEV. GABRIEL GALDINO',
     
     // Hero Section
     hero: {
@@ -16,6 +16,7 @@ export const translations = {
       description: 'I am a full-stack developer specializing in creating epic web experiences. My quest is to build legendary applications that solve real-world problems.',
       viewQuests: 'View Quests',
       hireMe: 'Hire Me',
+      curriculum: 'Curriculum',
     },
     
     // Skills Section
@@ -77,7 +78,7 @@ export const translations = {
       quests: 'MISSÕES',
       contact: 'CONTATO',
     },
-    logo: 'DEV.HERO',
+    logo: 'DEV. GABRIEL GALDINO',
     
     // Hero Section
     hero: {
@@ -86,6 +87,7 @@ export const translations = {
       description: 'Sou um desenvolvedor full-stack especializado em criar experiências web épicas. Minha missão é construir aplicações lendárias que resolvem problemas do mundo real.',
       viewQuests: 'Ver Missões',
       hireMe: 'Me Contrate',
+      curriculum: 'Curriculo',
     },
     
     // Skills Section

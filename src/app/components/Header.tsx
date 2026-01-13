@@ -35,11 +35,11 @@ export function Header({ activeSection, onNavigate }: HeaderProps) {
               className="w-8 h-8 bg-[#8b0000] border-2 border-[#d4af37]"
               style={{ imageRendering: "pixelated" }}
             >
-              <div className="w-full h-full flex items-center justify-center text-[#d4af37] text-xs">
+              <div className="w-full h-full flex items-center justify-center text-[#d4af37] text-sm">
                 ⚔️
               </div>
             </div>
-            <span className="text-[#d4af37] text-xs md:text-sm">{t.logo}</span>
+            <span className="text-[#d4af37] text-[10px] md:text-[12px]">{t.logo}</span>
           </div>
 
           {/* Desktop Navigation */}
