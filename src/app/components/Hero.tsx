@@ -1,5 +1,6 @@
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { useLanguage } from "../context/LanguageContext";
+import perfilImg from "../assets/GabImg.webp";
 
 interface HeroProps {
   onNavigate: (sectionId: string) => void;
@@ -73,11 +74,12 @@ export function Hero({ onNavigate }: HeroProps) {
                 style={{ animationDelay: "0.5s" }}
               ></div>
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1737575655055-e3967cbefd03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NjgwODQ1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={perfilImg}
                 alt="Developer Portrait"
-                className="w-full max-w-md border-8 border-[#d4af37] relative z-10 aspect-square object-cover"
+                className="w-full max-w-md border-8 border-[#d4af37] relative z-10 aspect-square object-cover object-top"
                 style={{
                   imageRendering: "auto",
+                  objectPosition: "center 20%",
                   boxShadow:
                     "0 0 40px rgba(139, 0, 0, 0.8), 0 0 80px rgba(212, 175, 55, 0.4), inset 0 0 20px rgba(212, 175, 55, 0.2)",
                   filter:
