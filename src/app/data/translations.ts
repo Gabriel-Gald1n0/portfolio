@@ -3,8 +3,8 @@ export const translations = {
     // Header
     nav: {
       home: 'HOME',
-      stats: 'STATS',
-      quests: 'QUESTS',
+      stats: 'ABOUT',
+      quests: 'PROJECTS',
       contact: 'CONTACT',
     },
     logo: 'DEV. GABRIEL GALDINO',
@@ -13,8 +13,8 @@ export const translations = {
     hero: {
       level: 'LVL 99 DEVELOPER',
       title: 'WELCOME, ADVENTURER',
-      description: 'I am a full-stack developer specializing in creating epic web experiences. My quest is to build legendary applications that solve real-world problems.',
-      viewQuests: 'View Quests',
+      description: 'Computer Science Student and FullStack Developer. Building epic cross-platform experiences using React Native, and .NET. Ready for any quest.',
+      viewQuests: 'View Projects',
       hireMe: 'Hire Me',
       curriculum: 'Curriculum',
     },
@@ -27,24 +27,24 @@ export const translations = {
       class: 'CLASS:',
       classValue: 'Full-Stack Developer',
       specialization: 'SPECIALIZATION:',
-      specializationValue: 'Frontend Magic',
+      specializationValue: 'Frontend & Backend',
       experience: 'EXPERIENCE:',
-      experienceValue: '5+ Years',
+      experienceValue: '3+ Years',
       alignment: 'ALIGNMENT:',
-      alignmentValue: 'Chaotic Good',
+      alignmentValue: 'Agile & Adaptive',
     },
     
     // About Me
     about: {
       title: '👤 ABOUT ME 👤',
-      text1: 'A seasoned traveler of the code realms, seeking legendary bugs to vanquish and epic systems to build.',
-      text2: 'Fluent in the ancient tongues of Java and Python, with a knack for weaving frontend magic that enchants users across the digital kingdoms.',
-      text3: 'Forged in the fires of countless deploys, wielding the sacred frameworks of React and Node.js to craft experiences worthy of legend.',
+      text1: 'My journey started in 2018 at IFBA Jequié as an IT Technician. There, I built a solid foundation not only in programming but also in hardware, networks, and technical support.',
+      text2: 'Currently, I am a Computer Science student at UESC and a former Software Resident at CEPEDI. I combine academic theory with daily practice in real-world projects, solving complex challenges.',
+      text3: 'As a versatile developer (Mobile & Web) and Scrum Master, I specialize in Kotlin, React Native, .NET, and Node.js. I value agile methodology and teamwork to deliver high-quality software.',
     },
     
     // Projects Section
     projects: {
-      title: '📋 QUEST LOG 📋',
+      title: '📋 Projects LOG 📋',
       subtitle: 'Completed Missions & Adventures',
       viewQuest: 'View Quest',
     },
@@ -52,20 +52,20 @@ export const translations = {
     // Contact Section
     contact: {
       title: '✉️ SEND MESSAGE ✉️',
-      subtitle: 'Summon me for your next quest',
+      subtitle: 'Summon me for your next project',
       nameLabel: 'Your Name:',
       namePlaceholder: 'Enter your name...',
       emailLabel: 'Your Email:',
       emailPlaceholder: 'your@email.com',
-      messageLabel: 'Quest Details:',
+      messageLabel: 'Project Details:',
       messagePlaceholder: 'Describe your project...',
-      submit: 'Submit Quest',
+      submit: 'Submit Proposal',
     },
     
     // Footer
     footer: {
       title: '⚔️ JOIN MY GUILD ⚔️',
-      copyright: '© 2026 DEV.HERO - All Rights Reserved | Built with ⚔️ and ✨',
+      copyright: '© 2026 Gabriel Galdino - All Rights Reserved | Built with ❤️ and ✨',
       quote: '"May your code compile and your deploys succeed"',
     },
   },
@@ -74,8 +74,8 @@ export const translations = {
     // Header
     nav: {
       home: 'INÍCIO',
-      stats: 'STATUS',
-      quests: 'MISSÕES',
+      stats: 'SOBRE',
+      quests: 'PROJETOS',
       contact: 'CONTATO',
     },
     logo: 'DEV. GABRIEL GALDINO',
@@ -84,8 +84,8 @@ export const translations = {
     hero: {
       level: 'NÍVEL 99 DESENVOLVEDOR',
       title: 'BEM-VINDO, AVENTUREIRO',
-      description: 'Sou um desenvolvedor full-stack especializado em criar experiências web épicas. Minha missão é construir aplicações lendárias que resolvem problemas do mundo real.',
-      viewQuests: 'Ver Missões',
+      description: 'Estudante de Ciência da Computação e Desenvolvedor FullStack. Construo experiências multiplataforma épicas usando React Native e .NET. Pronto para qualquer missão.',
+      viewQuests: 'Ver Projetos',
       hireMe: 'Me Contrate',
       curriculum: 'Curriculo',
     },
@@ -98,24 +98,24 @@ export const translations = {
       class: 'CLASSE:',
       classValue: 'Desenvolvedor Full-Stack',
       specialization: 'ESPECIALIZAÇÃO:',
-      specializationValue: 'Magia Frontend',
+      specializationValue: 'Frontend & Backend',
       experience: 'EXPERIÊNCIA:',
-      experienceValue: '5+ Anos',
+      experienceValue: '3+ Anos',
       alignment: 'ALINHAMENTO:',
-      alignmentValue: 'Caótico Bom',
+      alignmentValue: 'Ágil & Adaptável',
     },
     
     // About Me
     about: {
       title: '👤 SOBRE MIM 👤',
-      text1: 'Um viajante experiente dos reinos do código, buscando bugs lendários para vencer e sistemas épicos para construir.',
-      text2: 'Fluente nas antigas línguas de Java e Python, com talento para tecer magia frontend que encanta usuários pelos reinos digitais.',
-      text3: 'Forjado nas chamas de incontáveis deploys, empunhando os frameworks sagrados de React e Node.js para criar experiências dignas de lenda.',
+      text1: 'Minha trajetória começou em 2018 no IFBA Jequié, como Técnico em Informática. Lá, construí uma base sólida não apenas em programação, mas também em hardware, redes e suporte técnico.',
+      text2: 'Atualmente, curso Ciência da Computação na UESC e sou ex-Residente de Software no CEPEDI. Combino a teoria acadêmica com a prática diária em projetos reais, resolvendo desafios complexos.',
+      text3: 'Como desenvolvedor versátil (Mobile & Web) e Scrum Master, sou especialista em Kotlin, React Native, .NET e Node.js. Valorizo a metodologia ágil e o trabalho em equipe para entregar software de alta qualidade.',
     },
     
     // Projects Section
     projects: {
-      title: '📋 REGISTRO DE MISSÕES 📋',
+      title: '📋 REGISTRO DE PROJETOS 📋',
       subtitle: 'Missões e Aventuras Completas',
       viewQuest: 'Ver Missão',
     },
@@ -123,20 +123,20 @@ export const translations = {
     // Contact Section
     contact: {
       title: '✉️ ENVIAR MENSAGEM ✉️',
-      subtitle: 'Me invoque para sua próxima missão',
+      subtitle: 'Me Chame para seu próximo projeto',
       nameLabel: 'Seu Nome:',
       namePlaceholder: 'Digite seu nome...',
       emailLabel: 'Seu Email:',
       emailPlaceholder: 'seu@email.com',
-      messageLabel: 'Detalhes da Missão:',
+      messageLabel: 'Detalhes do Projeto:',
       messagePlaceholder: 'Descreva seu projeto...',
-      submit: 'Enviar Missão',
+      submit: 'Enviar Proposta',
     },
     
     // Footer
     footer: {
       title: '⚔️ JUNTE-SE À MINHA GUILDA ⚔️',
-      copyright: '© 2026 DEV.HERO - Todos os Direitos Reservados | Feito com ⚔️ e ✨',
+      copyright: '© 2026 Gabriel Galdino - Todos os Direitos Reservados | Feito com ❤️ e ✨',
       quote: '"Que seu código compile e seus deploys tenham sucesso"',
     },
   },

@@ -111,24 +111,24 @@ export function Header({ activeSection, onNavigate }: HeaderProps) {
                   style={{ boxShadow: "4px 4px 0 #000" }}
                 >
                   <button
-                    onClick={() => handleLanguageSelect("EN")}
-                    className={`w-full px-4 py-2 text-xs text-left hover:bg-[#d4af37] hover:text-[#1a1a1a] transition-colors ${
-                      language === "EN"
-                        ? "bg-[#8b0000] text-[#d4af37]"
-                        : "text-[#e8d4a0]"
-                    }`}
-                  >
-                    EN
-                  </button>
-                  <button
                     onClick={() => handleLanguageSelect("PT")}
-                    className={`w-full px-4 py-2 text-xs text-left hover:bg-[#d4af37] hover:text-[#1a1a1a] transition-colors border-t-2 border-[#4a4a4a] ${
+                    className={`w-full px-4 py-2 text-xs text-left hover:bg-[#d4af37] hover:text-[#1a1a1a] transition-colors ${
                       language === "PT"
                         ? "bg-[#8b0000] text-[#d4af37]"
                         : "text-[#e8d4a0]"
                     }`}
                   >
                     PT
+                  </button>
+                  <button
+                    onClick={() => handleLanguageSelect("EN")}
+                    className={`w-full px-4 py-2 text-xs text-left hover:bg-[#d4af37] hover:text-[#1a1a1a] transition-colors border-t-2 border-[#4a4a4a] ${
+                      language === "EN"
+                        ? "bg-[#8b0000] text-[#d4af37]"
+                        : "text-[#e8d4a0]"
+                    }`}
+                  >
+                    EN
                   </button>
                 </div>
               )}
@@ -153,24 +153,24 @@ export function Header({ activeSection, onNavigate }: HeaderProps) {
                   style={{ boxShadow: "4px 4px 0 #000" }}
                 >
                   <button
-                    onClick={() => handleLanguageSelect("EN")}
-                    className={`w-full px-3 py-2 text-[8px] text-left hover:bg-[#d4af37] hover:text-[#1a1a1a] transition-colors ${
-                      language === "EN"
-                        ? "bg-[#8b0000] text-[#d4af37]"
-                        : "text-[#e8d4a0]"
-                    }`}
-                  >
-                    EN
-                  </button>
-                  <button
                     onClick={() => handleLanguageSelect("PT")}
-                    className={`w-full px-3 py-2 text-[8px] text-left hover:bg-[#d4af37] hover:text-[#1a1a1a] transition-colors border-t-2 border-[#4a4a4a] ${
+                    className={`w-full px-3 py-2 text-[8px] text-left hover:bg-[#d4af37] hover:text-[#1a1a1a] transition-colors ${
                       language === "PT"
                         ? "bg-[#8b0000] text-[#d4af37]"
                         : "text-[#e8d4a0]"
                     }`}
                   >
                     PT
+                  </button>
+                  <button
+                    onClick={() => handleLanguageSelect("EN")}
+                    className={`w-full px-3 py-2 text-[8px] text-left hover:bg-[#d4af37] hover:text-[#1a1a1a] transition-colors border-t-2 border-[#4a4a4a] ${
+                      language === "EN"
+                        ? "bg-[#8b0000] text-[#d4af37]"
+                        : "text-[#e8d4a0]"
+                    }`}
+                  >
+                    EN
                   </button>
                 </div>
               )}

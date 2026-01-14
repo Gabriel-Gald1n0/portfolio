@@ -24,14 +24,19 @@ export interface Project {
 }
 
 export const skills: Skill[] = [
+  { name: 'React Native', icon: '🏹', level: 18, type: 'weapon' },
+  { name: 'Kotlin', icon: '🪓', level: 17, type: 'weapon' },
   { name: 'React', icon: '⚔️', level: 18, type: 'weapon' },
-  { name: 'JavaScript', icon: '📜', level: 20, type: 'scroll' },
-  { name: 'TypeScript', icon: '🛡️', level: 16, type: 'armor' },
+  { name: 'Angular', icon: '🛡️', level: 16, type: 'armor' },
+  { name: '.NET / C#', icon: '🔨', level: 17, type: 'weapon' },
   { name: 'Node.js', icon: '🧪', level: 15, type: 'potion' },
-  { name: 'CSS/Tailwind', icon: '✨', level: 17, type: 'spell' },
-  { name: 'Git', icon: '🗡️', level: 19, type: 'weapon' },
-  { name: 'Python', icon: '📖', level: 14, type: 'book' },
-  { name: 'SQL', icon: '💎', level: 13, type: 'gem' },
+  { name: 'Django', icon: '🔥', level: 14, type: 'spell' },
+  { name: 'JavaScript', icon: '📜', level: 20, type: 'scroll' },
+  { name: 'TypeScript', icon: '⛓️', level: 16, type: 'armor' },
+  { name: 'PostgreSQL', icon: '⚱️', level: 15, type: 'gem' },
+  { name: 'SQL', icon: '💎', level: 14, type: 'gem' },
+  { name: 'Git', icon: '🗝️', level: 19, type: 'item' },
+  { name: 'Scrum', icon: '🗺️', level: 18, type: 'map' },
 ];
 
 export const projects: Project[] = [

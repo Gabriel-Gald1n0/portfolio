@@ -1,6 +1,6 @@
-import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
-import { useLanguage } from '@/app/context/LanguageContext';
-import { skills } from '@/app/data/content';
+import { ImageWithFallback } from '../components/figma/ImageWithFallback';
+import { useLanguage } from '../context/LanguageContext';
+import { skills } from '../data/content';
 
 export function Skills() {
   const { t } = useLanguage();
