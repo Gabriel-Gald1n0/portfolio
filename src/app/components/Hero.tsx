@@ -56,7 +56,7 @@ export function Hero({ onNavigate }: HeroProps) {
                 {t.hero.hireMe}
               </button>
               <a
-                href="#"
+                href="https://gabriel-gald1n0.github.io/cv/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-[#2a2a2a] text-[#d4af37] border-4 border-[#d4af37] hover:bg-[#3a3a3a] hover:text-[#e8d4a0] transition-all text-[9px] uppercase flex items-center justify-center"
