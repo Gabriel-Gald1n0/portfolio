@@ -26,7 +26,7 @@ export function Skills() {
         {skillsList.map((skill, index) => (
           <div
             key={index}
-            className="bg-[#1a1a1a] border-4 border-[#4a4a4a] p-4 hover:border-[#d4af37] transition-all group relative overflow-hidden"
+            className="bg-[#1a1a1a] border-4 border-[#4a4a4a] p-4 hover:border-[#d4af37] transition-all group relative overflow-hidden select-none"
             style={{ boxShadow: "4px 4px 0 #000" }}
           >
             <div className="absolute inset-0 bg-[#d4af37] opacity-0 group-hover:opacity-5 transition-opacity"></div>
