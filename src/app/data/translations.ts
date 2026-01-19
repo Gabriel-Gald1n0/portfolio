@@ -59,9 +59,15 @@ export const translations = {
       namePlaceholder: 'Enter your name...',
       emailLabel: 'Your Email:',
       emailPlaceholder: 'your@email.com',
+      subjectLabel: 'Subject:',
+      subjectPlaceholder: 'Ex: Front-end Job Proposal',
       messageLabel: 'Project Details:',
       messagePlaceholder: 'Describe your project...',
       submit: 'Submit Proposal',
+      sucessMessage1: 'Message Sent!',
+      sucessMessage2: '🦅 The messenger owl has successfully delivered your message! Await my response soon.',
+      erroMessage: '⚠️ Magical connection failed. Please try again.',
+      submitMessage: 'Summoning Owl...',
     },
     
     // Footer
@@ -132,9 +138,15 @@ export const translations = {
       namePlaceholder: 'Digite seu nome...',
       emailLabel: 'Seu Email:',
       emailPlaceholder: 'seu@email.com',
+      subjectLabel: 'Assunto:',
+      subjectPlaceholder: 'Ex: Proposta de Vaga Front-end',
       messageLabel: 'Detalhes do Projeto:',
       messagePlaceholder: 'Descreva seu projeto...',
       submit: 'Enviar Proposta',
+      sucessMessage1: 'Mensagem Enviada!',
+      sucessMessage2: '🦅 A coruja mensageira levou sua mensagem com sucesso! Aguarde meu retorno em breve.',
+      erroMessage: '⚠️ Falha na conexão mágica. Por favor, tente novamente.',
+      submitMessage: 'Invocando Coruja...',
     },
     
     // Footer
