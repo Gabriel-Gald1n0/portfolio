@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
+import { Services } from './components/Services';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 
@@ -23,6 +24,7 @@ function AppContent() {
       <Header activeSection={activeSection} onNavigate={scrollToSection} />
       <Hero onNavigate={scrollToSection} />
       <Skills />
+      <Services />
       <Projects />
       <Contact />
       <Footer />

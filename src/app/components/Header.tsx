@@ -43,7 +43,7 @@ export function Header({ activeSection, onNavigate }: HeaderProps) {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6">
             <ul className="flex gap-6 text-xs">
               <li>
                 <button
@@ -67,6 +67,18 @@ export function Header({ activeSection, onNavigate }: HeaderProps) {
                   }`}
                 >
                   {t.nav.stats}
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => onNavigate("services")}
+                  className={`hover:text-[#d4af37] transition-colors ${
+                    activeSection === "services"
+                      ? "text-[#d4af37]"
+                      : "text-[#e8d4a0]"
+                  }`}
+                >
+                  {t.nav.services}
                 </button>
               </li>
               <li>
@@ -136,7 +148,7 @@ export function Header({ activeSection, onNavigate }: HeaderProps) {
           </div>
 
           {/* Mobile Menu Controls */}
-          <div className="flex md:hidden items-center gap-3">
+          <div className="flex lg:hidden items-center gap-3">
             {/* Mobile Language Dropdown */}
             <div className="relative">
               <button
@@ -193,7 +205,7 @@ export function Header({ activeSection, onNavigate }: HeaderProps) {
         {/* Mobile Menu - Expanded State */}
         {mobileMenuOpen && (
           <div
-            className="md:hidden mt-4 bg-[#1a1a1a] border-4 border-[#d4af37] p-4"
+            className="lg:hidden mt-4 bg-[#1a1a1a] border-4 border-[#d4af37] p-4"
             style={{ boxShadow: "6px 6px 0 #000" }}
           >
             <ul className="space-y-3">
@@ -221,6 +233,19 @@ export function Header({ activeSection, onNavigate }: HeaderProps) {
                   style={{ boxShadow: "2px 2px 0 #000" }}
                 >
                   ▶ {t.nav.stats}
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNavigate("services")}
+                  className={`w-full text-left px-4 py-3 border-2 transition-all text-xs ${
+                    activeSection === "services"
+                      ? "bg-[#d4af37] text-[#1a1a1a] border-[#d4af37]"
+                      : "bg-[#2a2a2a] text-[#e8d4a0] border-[#4a4a4a] hover:border-[#d4af37]"
+                  }`}
+                  style={{ boxShadow: "2px 2px 0 #000" }}
+                >
+                  ▶ {t.nav.services}
                 </button>
               </li>
               <li>

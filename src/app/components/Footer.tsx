@@ -19,8 +19,16 @@ export function Footer() {
       ></div>
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-8">
-          <h3 className="text-xs md:text-sm text-[#d4af37] mb-6">
-            {t.footer.title}
+          <h3 className="text-xs md:text-sm text-[#d4af37] mb-6 flex items-center justify-center gap-2 uppercase tracking-widest">
+            <span className="text-sm md:text-base transform -translate-y-0.5 translate-x-0.5 select-none">
+              ⚔️
+            </span>
+            <span className="whitespace-nowrap">
+              {t.footer.title}
+            </span>
+            <span className="text-sm md:text-base transform -translate-y-0.5 -translate-x-0.5 select-none">
+              ⚔️
+            </span>
           </h3>
           <div className="flex justify-center gap-6">
             <a

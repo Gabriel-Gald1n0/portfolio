@@ -43,12 +43,20 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 px-4 bg-[#2a2a2a] border-t-4 border-[#d4af37]"
+      className="scroll-mt-4 py-20 px-4 bg-[#2a2a2a] border-t-4 border-[#d4af37]"
     >
       <div className="container mx-auto max-w-2xl">
         <div className="text-center mb-12">
-          <h2 className="text-xl md:text-2xl text-[#d4af37] mb-4 inline-block px-6 py-3 bg-[#1a1a1a] border-4 border-[#d4af37]">
-            {t.contact.title}
+          <h2 className="text-sm sm:text-lg md:text-2xl text-[#d4af37] mb-4 inline-flex items-center justify-center gap-3 px-3 md:px-6 py-3 bg-[#1a1a1a] border-4 border-[#d4af37] max-w-full">
+            <span className="text-base md:text-2xl transform -translate-y-0.5 select-none">
+              ✉️
+            </span>
+            <span className="text-center whitespace-normal md:whitespace-nowrap">
+              {t.contact.title}
+            </span>
+            <span className="text-base md:text-2xl transform -translate-y-0.5 select-none">
+              ✉️
+            </span>
           </h2>
           <p className="text-[10px] md:text-xs text-[#e8d4a0] mt-4 opacity-80">
             {t.contact.subtitle}

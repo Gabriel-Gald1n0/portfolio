@@ -77,7 +77,7 @@ export function Projects() {
   const totalPages = Math.ceil(projects.length / itemsPerPage);
 
   return (
-    <section id="projects" className="py-20 px-4 bg-[#1a1a1a] relative overflow-hidden">
+    <section id="projects" className="scroll-mt-4 py-20 px-4 bg-[#1a1a1a] relative overflow-hidden">
       <div 
         className="absolute inset-0 opacity-10" 
         style={{ 
@@ -89,8 +89,16 @@ export function Projects() {
       ></div>
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-xl md:text-2xl text-[#d4af37] mb-4 inline-block px-6 py-3 bg-[#2a2a2a] border-4 border-[#d4af37]">
-            {t.projects.title}
+          <h2 className="text-sm sm:text-lg md:text-2xl text-[#d4af37] mb-4 inline-flex items-center justify-center gap-3 px-3 md:px-6 py-3 bg-[#1a1a1a] border-4 border-[#d4af37] max-w-full">
+            <span className="text-base md:text-2xl transform -translate-y-0.5 select-none">
+              📋
+            </span>
+            <span className="text-center whitespace-normal md:whitespace-nowrap">
+              {t.projects.title}
+            </span>
+            <span className="text-base md:text-2xl transform -translate-y-0.5 select-none">
+              📋
+            </span>
           </h2>
           <p className="text-[10px] md:text-xs text-[#e8d4a0] mt-4 opacity-80">
             {t.projects.subtitle}

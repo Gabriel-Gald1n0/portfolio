@@ -6,6 +6,7 @@ export const translations = {
       stats: 'ABOUT',
       quests: 'PROJECTS',
       contact: 'CONTACT',
+      services: 'SERVICES',
     },
     logo: 'DEV. GABRIEL GALDINO',
     
@@ -21,7 +22,7 @@ export const translations = {
     
     // Skills Section
     skills: {
-      title: '⚔️ INVENTORY ⚔️',
+      title: 'INVENTORY',
       subtitle: 'My Arsenal of Skills & Technologies',
       characterSheet: '📜 CHARACTER SHEET',
       class: 'CLASS:',
@@ -46,14 +47,14 @@ export const translations = {
     
     // Projects Section
     projects: {
-      title: '📋 Projects LOG 📋',
+      title: 'Projects LOG',
       subtitle: 'Completed Missions & Adventures',
       viewQuest: 'View Quest',
     },
     
     // Contact Section
     contact: {
-      title: '✉️ SEND MESSAGE ✉️',
+      title: 'SEND MESSAGE',
       subtitle: 'Summon me for your next project',
       nameLabel: 'Your Name:',
       namePlaceholder: 'Enter your name...',
@@ -70,9 +71,25 @@ export const translations = {
       submitMessage: 'Summoning Owl...',
     },
     
+    // Service Section
+    services: {
+      title: 'AVAILABLE SERVICES',
+      subtitle: 'Technical solutions for your next project',
+      // Card 1: Mobile
+      mobileTitle: 'Mobile Development',
+      mobileDesc: 'Creating native (Kotlin) and hybrid (React Native) apps for Android and iOS. Focused on performance, smooth interfaces, and API integration.',
+      // Card 2: Web
+      webTitle: 'Web Front-end Development',
+      webDesc: 'Developing modern and responsive interfaces using React.js and Next.js. Dashboards, Landing Pages, and optimized web systems.',
+      // Card 3: Backend
+      backendTitle: 'Back-end & Integrations',
+      backendDesc: 'Building robust APIs, microservices architecture, and database management (SQL) using Node.js or .NET.',
+      contractMe: 'Hire Services',
+    },
+
     // Footer
     footer: {
-      title: '⚔️ JOIN MY GUILD ⚔️',
+      title: 'JOIN MY GUILD',
       copyright: '© 2026 Gabriel Galdino - All Rights Reserved | Built with ❤️ and ✨',
       quote: '"May your code compile and your deploys succeed"',
     },
@@ -85,6 +102,7 @@ export const translations = {
       stats: 'SOBRE',
       quests: 'PROJETOS',
       contact: 'CONTATO',
+      services: 'SERVIÇOS',
     },
     logo: 'DEV. GABRIEL GALDINO',
     
@@ -100,7 +118,7 @@ export const translations = {
     
     // Skills Section
     skills: {
-      title: '⚔️ INVENTÁRIO ⚔️',
+      title: 'INVENTÁRIO',
       subtitle: 'Meu Arsenal de Habilidades e Tecnologias',
       characterSheet: '📜 FICHA DO PERSONAGEM',
       class: 'CLASSE:',
@@ -125,14 +143,14 @@ export const translations = {
     
     // Projects Section
     projects: {
-      title: '📋 REGISTRO DE PROJETOS 📋',
+      title: 'REGISTRO DE PROJETOS',
       subtitle: 'Missões e Aventuras Completas',
       viewQuest: 'Ver Missão',
     },
     
     // Contact Section
     contact: {
-      title: '✉️ ENVIAR MENSAGEM ✉️',
+      title: 'ENVIAR MENSAGEM',
       subtitle: 'Me Chame para seu próximo projeto',
       nameLabel: 'Seu Nome:',
       namePlaceholder: 'Digite seu nome...',
@@ -148,10 +166,26 @@ export const translations = {
       erroMessage: '⚠️ Falha na conexão mágica. Por favor, tente novamente.',
       submitMessage: 'Invocando Coruja...',
     },
+
+    // Service Section
+    services: {
+      title: 'SERVIÇOS DISPONÍVEIS',
+      subtitle: 'Soluções técnicas para seu próximo projeto',
+      // Card 1: Mobile
+      mobileTitle: 'Desenvolvimento Mobile',
+      mobileDesc: 'Criação de aplicativos nativos (Kotlin) e híbridos (React Native) para Android e iOS. Foco em performance, interfaces fluidas e integração com APIs.',
+      // Card 2: Web
+      webTitle: 'Desenvolvimento Web Front-end',
+      webDesc: 'Desenvolvimento de interfaces modernas e responsivas utilizando React.js e Next.js. Dashboards, Landing Pages e sistemas web otimizados.',
+      // Card 3: Backend
+      backendTitle: 'Back-end & Integrações',
+      backendDesc: 'Construção de APIs robustas, arquitetura de microsserviços e gerenciamento de banco de dados (SQL) usando Node.js ou .NET.',
+      contractMe: 'Contratar Serviços',
+    },
     
     // Footer
     footer: {
-      title: '⚔️ JUNTE-SE À MINHA GUILDA ⚔️',
+      title: 'JUNTE-SE À MINHA GUILDA',
       copyright: '© 2026 Gabriel Galdino - Todos os Direitos Reservados | Feito com ❤️ e ✨',
       quote: '"Que seu código compile e seus deploys tenham sucesso"',
     },
