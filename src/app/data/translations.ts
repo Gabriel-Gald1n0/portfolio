@@ -14,7 +14,7 @@ export const translations = {
     hero: {
       level: 'LVL 99 DEVELOPER',
       title: 'WELCOME, ADVENTURER',
-      description: 'Junior Software Developer with 2+ years of experience focused on React and .NET. Creating epic cross-platform experiences. Ready for any quest.',
+      description: 'Junior Software Developer with 2+ years of experience, specializing in React and .NET. I create robust and modern cross-platform solutions. Ready for any quest.',
       viewQuests: 'View Projects',
       hireMe: 'Hire Me',
       curriculum: 'Curriculum',
@@ -28,7 +28,7 @@ export const translations = {
       class: 'CLASS:',
       classValue: 'Full-Stack Developer',
       specialization: 'SPECIALIZATION:',
-      specializationValue: 'Full-Stack',
+      specializationValue: 'React & .NET',
       background: 'BACKGROUND:',
       backgroundValue: 'Computer Scientist',
       experience: 'EXPERIENCE:',
@@ -42,7 +42,7 @@ export const translations = {
       title: '👤 ABOUT ME 👤',
       text1: 'My journey started in 2018 at IFBA Jequié as an IT Technician. There, I built a solid foundation not only in programming but also in hardware, networks, and technical support.',
       text2: 'Currently, I am a Computer Science student at UESC and a former Software Resident at CEPEDI. I combine academic theory with daily practice in real-world projects, solving complex challenges.',
-      text3: 'Specialist in building high-performance mobile applications with React Native and Kotlin, integrated with secure .NET backends. I combine the agility of hybrid development with the power of native code to deliver products that work in the real world.',
+      text3: 'Specialist in building high-performance web and mobile applications with React and React Native, integrated with secure .NET backends. Combines modern interfaces with a solid architecture to deliver complete products that work in the real world.',
     },
     
     // Projects Section
@@ -77,7 +77,7 @@ export const translations = {
       subtitle: 'Technical solutions for your next project',
       // Card 1: Mobile
       mobileTitle: 'Mobile Development',
-      mobileDesc: 'Creating native (Kotlin) and hybrid (React Native) apps for Android and iOS. Focused on performance, smooth interfaces, and API integration.',
+      mobileDesc: 'Developing Android and iOS applications using React Native. Focus on performance, fluid interfaces, and API integration.',
       // Card 2: Web
       webTitle: 'Web Front-end Development',
       webDesc: 'Developing modern and responsive interfaces using React.js and Next.js. Dashboards, Landing Pages, and optimized web systems.',
@@ -110,7 +110,7 @@ export const translations = {
     hero: {
       level: 'NÍVEL 99 DESENVOLVEDOR',
       title: 'BEM-VINDO, AVENTUREIRO',
-      description: 'Desenvolvedor de Software Júnior com 2+ anos de experiência focado em React e .NET. Crio experiências multiplataforma épicas. Pronto para qualquer missão.',
+      description: 'Desenvolvedor de Software Júnior com 2+ anos de experiência, especializado em React e .NET. Crio soluções multiplataforma robustas e modernas. Pronto para qualquer missão.',
       viewQuests: 'Ver Projetos',
       hireMe: 'Me Contrate',
       curriculum: 'Curriculo',
@@ -124,7 +124,7 @@ export const translations = {
       class: 'CLASSE:',
       classValue: 'Desenvolvedor Full-Stack',
       specialization: 'ESPECIALIZAÇÃO:',
-      specializationValue: 'Full-Stack',
+      specializationValue: 'React & .NET',
       background: 'ANTECEDENTE:',             
       backgroundValue: 'Cientista da Computação',
       experience: 'EXPERIÊNCIA:',
@@ -138,7 +138,7 @@ export const translations = {
       title: '👤 SOBRE MIM 👤',
       text1: 'Minha trajetória começou em 2018 no IFBA Jequié, como Técnico em Informática. Lá, construí uma base sólida não apenas em programação, mas também em hardware, redes e suporte técnico.',
       text2: 'Atualmente, curso Ciência da Computação na UESC e sou ex-Residente de Software no CEPEDI. Combino a teoria acadêmica com a prática diária em projetos reais, resolvendo desafios complexos.',
-      text3: 'Especialista na construção de aplicações móveis de alta performance com React Native e Kotlin, integradas a backends seguros em .NET. Combino a agilidade do desenvolvimento híbrido com o poder do código nativo para entregar produtos que funcionam no mundo real.',
+      text3: 'Especialista na construção de aplicações Web e Mobile de alta performance com React e React Native, integradas a backends seguros em .NET. Combino interfaces modernas com uma arquitetura sólida para entregar produtos completos que funcionam no mundo real.',
     },
     
     // Projects Section
@@ -173,7 +173,7 @@ export const translations = {
       subtitle: 'Soluções técnicas para seu próximo projeto',
       // Card 1: Mobile
       mobileTitle: 'Desenvolvimento Mobile',
-      mobileDesc: 'Criação de aplicativos nativos (Kotlin) e híbridos (React Native) para Android e iOS. Foco em performance, interfaces fluidas e integração com APIs.',
+      mobileDesc: 'Desenvolvimento de aplicativos para Android e iOS utilizando React Native. Foco em performance, interfaces fluidas e integração com APIs.',
       // Card 2: Web
       webTitle: 'Desenvolvimento Web Front-end',
       webDesc: 'Desenvolvimento de interfaces modernas e responsivas utilizando React.js e Next.js. Dashboards, Landing Pages e sistemas web otimizados.',
