@@ -14,7 +14,7 @@ export const translations = {
     hero: {
       level: 'LVL 99 DEVELOPER',
       title: 'WELCOME, ADVENTURER',
-      description: 'Junior Software Developer with 2+ years of experience focused on React Native and .NET. Creating epic cross-platform experiences. Ready for any quest.',
+      description: 'Junior Software Developer with 2+ years of experience focused on React and .NET. Creating epic cross-platform experiences. Ready for any quest.',
       viewQuests: 'View Projects',
       hireMe: 'Hire Me',
       curriculum: 'Curriculum',
@@ -28,7 +28,7 @@ export const translations = {
       class: 'CLASS:',
       classValue: 'Full-Stack Developer',
       specialization: 'SPECIALIZATION:',
-      specializationValue: 'Frontend & Backend',
+      specializationValue: 'Full-Stack',
       background: 'BACKGROUND:',
       backgroundValue: 'Computer Scientist',
       experience: 'EXPERIENCE:',
@@ -42,7 +42,7 @@ export const translations = {
       title: '👤 ABOUT ME 👤',
       text1: 'My journey started in 2018 at IFBA Jequié as an IT Technician. There, I built a solid foundation not only in programming but also in hardware, networks, and technical support.',
       text2: 'Currently, I am a Computer Science student at UESC and a former Software Resident at CEPEDI. I combine academic theory with daily practice in real-world projects, solving complex challenges.',
-      text3: 'As a versatile developer (Mobile & Web) and Scrum Master, I specialize in Kotlin, React Native, .NET, and Node.js. I value agile methodology and teamwork to deliver high-quality software.',
+      text3: 'Specialist in building high-performance mobile applications with React Native and Kotlin, integrated with secure .NET backends. I combine the agility of hybrid development with the power of native code to deliver products that work in the real world.',
     },
     
     // Projects Section
@@ -83,7 +83,7 @@ export const translations = {
       webDesc: 'Developing modern and responsive interfaces using React.js and Next.js. Dashboards, Landing Pages, and optimized web systems.',
       // Card 3: Backend
       backendTitle: 'Back-end & Integrations',
-      backendDesc: 'Building robust APIs, microservices architecture, and database management (SQL) using Node.js or .NET.',
+      backendDesc: 'Building robust APIs, microservices architecture, and database management (SQL) using .NET.',
       contractMe: 'Hire Services',
     },
 
@@ -110,7 +110,7 @@ export const translations = {
     hero: {
       level: 'NÍVEL 99 DESENVOLVEDOR',
       title: 'BEM-VINDO, AVENTUREIRO',
-      description: 'Desenvolvedor de Software Júnior com 2+ anos de experiência focado em React Native e .NET. Crio experiências multiplataforma épicas. Pronto para qualquer missão.',
+      description: 'Desenvolvedor de Software Júnior com 2+ anos de experiência focado em React e .NET. Crio experiências multiplataforma épicas. Pronto para qualquer missão.',
       viewQuests: 'Ver Projetos',
       hireMe: 'Me Contrate',
       curriculum: 'Curriculo',
@@ -124,7 +124,7 @@ export const translations = {
       class: 'CLASSE:',
       classValue: 'Desenvolvedor Full-Stack',
       specialization: 'ESPECIALIZAÇÃO:',
-      specializationValue: 'Frontend & Backend',
+      specializationValue: 'Full-Stack',
       background: 'ANTECEDENTE:',             
       backgroundValue: 'Cientista da Computação',
       experience: 'EXPERIÊNCIA:',
@@ -138,7 +138,7 @@ export const translations = {
       title: '👤 SOBRE MIM 👤',
       text1: 'Minha trajetória começou em 2018 no IFBA Jequié, como Técnico em Informática. Lá, construí uma base sólida não apenas em programação, mas também em hardware, redes e suporte técnico.',
       text2: 'Atualmente, curso Ciência da Computação na UESC e sou ex-Residente de Software no CEPEDI. Combino a teoria acadêmica com a prática diária em projetos reais, resolvendo desafios complexos.',
-      text3: 'Como desenvolvedor versátil (Mobile & Web) e Scrum Master, sou especialista em Kotlin, React Native, .NET e Node.js. Valorizo a metodologia ágil e o trabalho em equipe para entregar software de alta qualidade.',
+      text3: 'Especialista na construção de aplicações móveis de alta performance com React Native e Kotlin, integradas a backends seguros em .NET. Combino a agilidade do desenvolvimento híbrido com o poder do código nativo para entregar produtos que funcionam no mundo real.',
     },
     
     // Projects Section
@@ -179,7 +179,7 @@ export const translations = {
       webDesc: 'Desenvolvimento de interfaces modernas e responsivas utilizando React.js e Next.js. Dashboards, Landing Pages e sistemas web otimizados.',
       // Card 3: Backend
       backendTitle: 'Back-end & Integrações',
-      backendDesc: 'Construção de APIs robustas, arquitetura de microsserviços e gerenciamento de banco de dados (SQL) usando Node.js ou .NET.',
+      backendDesc: 'Construção de APIs robustas, arquitetura de microsserviços e gerenciamento de banco de dados (SQL) usando .NET.',
       contractMe: 'Contratar Serviços',
     },
     
