@@ -1,8 +1,8 @@
-import { useState, useRef, useEffect } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import { useLanguage } from '../context/LanguageContext';
-import { projects } from '../data/content';
+import { useState, useRef, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import { useLanguage } from "../context/LanguageContext";
+import { projects } from "../data/content";
 
 export function Projects() {
   const { language, t } = useLanguage();
@@ -10,7 +10,7 @@ export function Projects() {
 
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
-  
+
   const [currentPage, setCurrentPage] = useState(0);
   const [itemsPerPage, setItemsPerPage] = useState(1);
 
@@ -22,12 +22,12 @@ export function Projects() {
     const { current } = scrollContainerRef;
     if (current) {
       const { scrollLeft, scrollWidth, clientWidth } = current;
-      
+
       setCanScrollLeft(scrollLeft > 0);
       setCanScrollRight(scrollLeft + clientWidth < scrollWidth - 1);
 
       const isAtEnd = scrollLeft + clientWidth >= scrollWidth - 2;
-      
+
       if (isAtEnd) {
         const totalCurrentPages = Math.ceil(projects.length / itemsPerPage);
         setCurrentPage(totalCurrentPages - 1);
@@ -41,25 +41,26 @@ export function Projects() {
   useEffect(() => {
     updateItemsPerPage();
     checkForScroll();
-    
-    window.addEventListener('resize', () => {
+
+    window.addEventListener("resize", () => {
       checkForScroll();
       updateItemsPerPage();
     });
-    return () => window.removeEventListener('resize', checkForScroll);
+    return () => window.removeEventListener("resize", checkForScroll);
   }, []);
 
-  const scroll = (direction: 'left' | 'right') => {
+  const scroll = (direction: "left" | "right") => {
     if (scrollContainerRef.current) {
-      const scrollAmount = scrollContainerRef.current.clientWidth; 
+      const scrollAmount = scrollContainerRef.current.clientWidth;
       const scrollLeft = scrollContainerRef.current.scrollLeft;
-      const targetScroll = direction === 'left' 
-        ? scrollLeft - scrollAmount 
-        : scrollLeft + scrollAmount;
-      
+      const targetScroll =
+        direction === "left"
+          ? scrollLeft - scrollAmount
+          : scrollLeft + scrollAmount;
+
       scrollContainerRef.current.scrollTo({
         left: targetScroll,
-        behavior: 'smooth'
+        behavior: "smooth",
       });
     }
   };
@@ -69,7 +70,7 @@ export function Projects() {
       const scrollAmount = scrollContainerRef.current.clientWidth;
       scrollContainerRef.current.scrollTo({
         left: pageIndex * scrollAmount,
-        behavior: 'smooth'
+        behavior: "smooth",
       });
     }
   };
@@ -77,14 +78,18 @@ export function Projects() {
   const totalPages = Math.ceil(projects.length / itemsPerPage);
 
   return (
-    <section id="projects" className="scroll-mt-4 py-20 px-4 bg-[#1a1a1a] relative overflow-hidden">
-      <div 
-        className="absolute inset-0 opacity-10" 
-        style={{ 
-          backgroundImage: 'url(https://images.unsplash.com/photo-1555952208-02e405109112?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdG9uZSUyMGZsb29yJTIwdGV4dHVyZSUyMGRhcmt8ZW58MXx8fHwxNzY4MTAwODI2fDA&ixlib=rb-4.1.0&q=80&w=1080)',
-          backgroundSize: '300px 300px',
-          backgroundRepeat: 'repeat',
-          imageRendering: 'pixelated'
+    <section
+      id="projects"
+      className="scroll-mt-4 py-20 px-4 bg-[#1a1a1a] relative overflow-hidden"
+    >
+      <div
+        className="absolute inset-0 opacity-10"
+        style={{
+          backgroundImage:
+            "url(https://images.unsplash.com/photo-1555952208-02e405109112?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdG9uZSUyMGZsb29yJTIwdGV4dHVyZSUyMGRhcmt8ZW58MXx8fHwxNzY4MTAwODI2fDA&ixlib=rb-4.1.0&q=80&w=1080)",
+          backgroundSize: "300px 300px",
+          backgroundRepeat: "repeat",
+          imageRendering: "pixelated",
         }}
       ></div>
       <div className="container mx-auto relative z-10">
@@ -106,13 +111,12 @@ export function Projects() {
         </div>
 
         <div className="relative max-w-6xl mx-auto">
-          
           {/* Seta Esquerda */}
           {canScrollLeft && (
             <button
-              onClick={() => scroll('left')}
+              onClick={() => scroll("left")}
               className="absolute left-0 top-[40%] md:top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-[55px] z-20 bg-[#d4af37] border-4 border-[#1a1a1a] p-2 md:p-3 hover:bg-[#e8d4a0] transition-all"
-              style={{ boxShadow: '4px 4px 0 #000' }}
+              style={{ boxShadow: "4px 4px 0 #000" }}
               aria-label="Scroll left"
             >
               <ChevronLeft className="w-6 h-6 md:w-8 md:h-8 text-[#1a1a1a]" />
@@ -120,15 +124,15 @@ export function Projects() {
           )}
 
           {/* Carousel Container */}
-          <div 
+          <div
             ref={scrollContainerRef}
-            onScroll={checkForScroll} 
+            onScroll={checkForScroll}
             className={`flex overflow-x-auto snap-x snap-mandatory gap-6 scrollbar-hide pb-4 ${
-              projects.length < 3 ? 'md:justify-center' : ''
+              projects.length < 3 ? "md:justify-center" : ""
             }`}
             style={{
-              scrollbarWidth: 'none',
-              msOverflowStyle: 'none',
+              scrollbarWidth: "none",
+              msOverflowStyle: "none",
             }}
           >
             {projects.map((project) => (
@@ -138,26 +142,32 @@ export function Projects() {
               >
                 <div
                   className="bg-[#2a2a2a] border-4 border-[#4a4a4a] hover:border-[#d4af37] transition-all group h-full"
-                  style={{ boxShadow: '6px 6px 0 #000' }}
+                  style={{ boxShadow: "6px 6px 0 #000" }}
                 >
                   <div className="aspect-video bg-[#1a1a1a] border-b-4 border-[#4a4a4a] overflow-hidden">
                     <ImageWithFallback
                       src={project.imageUrl}
                       alt={project.title[language]}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                      style={{ imageRendering: 'auto' }}
+                      style={{ imageRendering: "auto" }}
                     />
                   </div>
                   <div className="p-4 space-y-3">
                     <div className="flex justify-between items-start gap-2">
-                      <h3 className="text-[10px] md:text-xs text-[#e8d4a0] uppercase">{project.title[language]}</h3>
-                      <span className={`text-[8px] px-2 py-1 border-2 whitespace-nowrap ${
-                        project.difficulty[language] === 'Hard' || project.difficulty[language] === 'Difícil'
-                          ? 'bg-[#8b0000] border-[#d4af37] text-[#d4af37]'
-                          : project.difficulty[language] === 'Medium' || project.difficulty[language] === 'Médio'
-                          ? 'bg-[#d4af37] border-[#1a1a1a] text-[#1a1a1a]'
-                          : 'bg-[#4a4a4a] border-[#e8d4a0] text-[#e8d4a0]'
-                      }`}>
+                      <h3 className="text-[10px] md:text-xs text-[#e8d4a0] uppercase">
+                        {project.title[language]}
+                      </h3>
+                      <span
+                        className={`text-[8px] px-2 py-1 border-2 whitespace-nowrap ${
+                          project.difficulty[language] === "Hard" ||
+                          project.difficulty[language] === "Difícil"
+                            ? "bg-[#8b0000] border-[#d4af37] text-[#d4af37]"
+                            : project.difficulty[language] === "Medium" ||
+                                project.difficulty[language] === "Médio"
+                              ? "bg-[#d4af37] border-[#1a1a1a] text-[#1a1a1a]"
+                              : "bg-[#4a4a4a] border-[#e8d4a0] text-[#e8d4a0]"
+                        }`}
+                      >
                         {project.difficulty[language]}
                       </span>
                     </div>
@@ -165,10 +175,27 @@ export function Projects() {
                       {project.description[language]}
                     </p>
                     <div className="flex justify-between items-center pt-2 border-t-2 border-[#4a4a4a]">
-                      <span className="text-[8px] text-[#d4af37]">⭐ {project.reward}</span>
-                      <button className="px-4 py-2 bg-[#d4af37] text-[#1a1a1a] border-2 border-[#1a1a1a] hover:bg-[#e8d4a0] transition-all text-[8px] uppercase">
-                        {t.projects.viewQuest}
-                      </button>
+                      <div className="flex items-center gap-1 text-[8px] text-[#d4af37]">
+                        <span className="leading-none transform -translate-y-[2px]">⭐</span>
+                        <span>{project.reward}</span>
+                      </div>
+                      {project.projectUrl ? (
+                        <a
+                          href={project.projectUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-4 py-2 bg-[#d4af37] text-[#1a1a1a] border-2 border-[#1a1a1a] hover:bg-[#e8d4a0] transition-all text-[8px] uppercase inline-block cursor-pointer"
+                        >
+                          {t.projects.viewQuest}
+                        </a>
+                      ) : (
+                        <button
+                          disabled
+                          className="px-4 py-2 bg-[#4a4a4a] text-[#888] border-2 border-[#1a1a1a] cursor-not-allowed text-[8px] uppercase"
+                        >
+                          {t.projects.viewQuest}
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -179,15 +206,14 @@ export function Projects() {
           {/* Seta Direita */}
           {canScrollRight && (
             <button
-              onClick={() => scroll('right')}
+              onClick={() => scroll("right")}
               className="absolute right-0 top-[40%] md:top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-[55px] z-20 bg-[#d4af37] border-4 border-[#1a1a1a] p-2 md:p-3 hover:bg-[#e8d4a0] transition-all"
-              style={{ boxShadow: '4px 4px 0 #000' }}
+              style={{ boxShadow: "4px 4px 0 #000" }}
               aria-label="Scroll right"
             >
               <ChevronRight className="w-6 h-6 md:w-8 md:h-8 text-[#1a1a1a]" />
             </button>
           )}
-
         </div>
 
         {/* Paginação (Botões em baixo) */}
@@ -198,9 +224,9 @@ export function Projects() {
                 key={index}
                 onClick={() => scrollToPage(index)}
                 className={`w-3 h-3 md:w-4 md:h-4 border-2 transition-all duration-300 transform rotate-45 ${
-                  currentPage === index 
-                    ? 'bg-[#d4af37] border-[#d4af37] scale-125' 
-                    : 'bg-[#1a1a1a] border-[#4a4a4a] hover:border-[#d4af37]'
+                  currentPage === index
+                    ? "bg-[#d4af37] border-[#d4af37] scale-125"
+                    : "bg-[#1a1a1a] border-[#4a4a4a] hover:border-[#d4af37]"
                 }`}
                 aria-label={`Go to page ${index + 1}`}
                 title={`Ir para seção ${index + 1}`}
@@ -208,7 +234,6 @@ export function Projects() {
             ))}
           </div>
         )}
-
       </div>
     </section>
   );

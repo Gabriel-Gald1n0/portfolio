@@ -21,6 +21,7 @@ export interface Project {
   };
   reward: string;
   imageUrl: string;
+  projectUrl?: string;
 }
 
 export const frontendSkills: Skill[] = [
@@ -50,19 +51,20 @@ export const projects: Project[] = [
   {
     id: 1,
     title: {
-      EN: 'E-Commerce Platform',
-      PT: 'Plataforma E-Commerce',
+      EN: 'Monitor POS - Terminal Diagnostics',
+      PT: 'Monitor POS - Diagnóstico de Terminal',
     },
     description: {
-      EN: 'A fully functional shopping cart with payment integration. Built with React and Stripe API.',
-      PT: 'Um carrinho de compras totalmente funcional com integração de pagamento. Feito com React e API Stripe.',
+      EN: 'Native Android app (Kotlin) for payment terminals. Monitors hardware health (battery, printer, network) using low-level SDK integrations.',
+      PT: 'App Android nativo (Kotlin) para terminais de pagamento. Monitora a saúde do hardware (bateria, impressora, rede) via integração de baixo nível com SDKs.',
     },
     difficulty: {
       EN: 'Hard',
       PT: 'Difícil',
     },
-    reward: '500 XP',
-    imageUrl: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=400',
+    reward: '1500 XP',
+    imageUrl: '/Monitor-POS2.webp', 
+    projectUrl: 'https://youtu.be/taf_GHSvXzY',
   },
   {
     id: 2,
