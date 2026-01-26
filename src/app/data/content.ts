@@ -63,7 +63,7 @@ export const projects: Project[] = [
       PT: 'Difícil',
     },
     reward: '1500 XP',
-    imageUrl: '/Monitor-POS2.webp', 
+    imageUrl: '/Monitor-POS.webp', 
     projectUrl: 'https://youtu.be/taf_GHSvXzY',
   },
   {
