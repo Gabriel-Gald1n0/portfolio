@@ -69,35 +69,72 @@ export const projects: Project[] = [
   {
     id: 2,
     title: {
-      EN: 'Task Management App',
-      PT: 'App de Gerenciamento de Tarefas',
+      EN: 'Insane App',
+      PT: 'Insane App',
     },
     description: {
-      EN: 'Kanban-style board with drag-and-drop. Real-time updates with WebSocket.',
-      PT: 'Quadro estilo Kanban com arrastar e soltar. Atualizações em tempo real com WebSocket.',
+      EN: 'Mobile social network designed to connect people who train in the same region, promoting interaction and training partnerships.',
+      PT: 'Rede social mobile projetada para conectar pessoas que treinam na mesma região, promovendo interação e parcerias de treino.',
+    },
+    difficulty: {
+      EN: 'Hard',
+      PT: 'Difícil',
+    },
+    reward: '2000 XP',
+    imageUrl: '/insane.jpg',
+  },
+  {
+    id: 3,
+    title: {
+      EN: 'PROEX - INSTITUTIONAL PORTAL',
+      PT: 'PROEX - PORTAL INSTITUCIONAL',
+    },
+    description: {
+      EN: 'Institutional web platform aimed at managing and disseminating university extension programs. Focus on scalable architecture, data flow organization, and optimizing the navigation experience for the academic community.',
+      PT: 'Plataforma web institucional voltada para a gestão e divulgação de programas de extensão universitária. Foco em arquitetura escalável, organização de fluxos de dados e otimização da experiência de navegação para a comunidade acadêmica.',
+    },
+    difficulty: {
+      EN: 'Hard',
+      PT: 'Difícil',
+    },
+    reward: '1500 XP',
+    imageUrl: '/proexLogo.jpeg',
+    projectUrl: 'https://proex.uesc.br',
+  },
+  {
+    id: 4,
+    title: {
+      EN: 'UPT - UNIVERSITY FOR ALL',
+      PT: 'UPT - UNIVERSIDADE PARA TODOS',
+    },
+    description: {
+      EN: 'Portal and support system for the social pre-university course. Development of dynamic and functional interfaces aimed at efficient communication with students and organization of pedagogical content.',
+      PT: 'Portal e sistema de apoio ao cursinho pré-vestibular social. Desenvolvimento de interfaces dinâmicas e funcionais voltadas para a comunicação eficiente com os estudantes e organização de conteúdos pedagógicos.',
     },
     difficulty: {
       EN: 'Medium',
       PT: 'Médio',
     },
-    reward: '300 XP',
-    imageUrl: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=400',
+    reward: '850 XP',
+    imageUrl: '/banner_upt.webp',
+    projectUrl: 'https://www.uesc.br/universidadeparatodos/',
   },
   {
-    id: 3,
+    id: 5,
     title: {
-      EN: 'Weather Dashboard',
-      PT: 'Painel de Clima',
+      EN: 'AGIR - MUNICIPAL PUBLIC MANAGEMENT',
+      PT: 'AGIR - GESTÃO PÚBLICA MUNICIPAL',
     },
     description: {
-      EN: 'Real-time weather data with interactive maps and forecasts. API integration practice.',
-      PT: 'Dados meteorológicos em tempo real com mapas interativos e previsões. Prática de integração de API.',
+      EN: 'Management and institutional support platform aimed at the continuous training of municipal public managers and articulation with AMURC, integrating extension, teaching, research, and innovation actions.',
+      PT: 'Plataforma de apoio gerencial e institucional voltada para a formação continuada de gestores públicos municipais e articulação com a AMURC, integrando ações de extensão, ensino, pesquisa e inovação.',
     },
     difficulty: {
-      EN: 'Easy',
-      PT: 'Fácil',
+      EN: 'Medium',
+      PT: 'Médio',
     },
-    reward: '150 XP',
-    imageUrl: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?w=400',
+    reward: '850 XP',
+    imageUrl: '/banner_agir.webp',
+    projectUrl: 'https://www.uesc.br/projetos/agir/',
   },
 ];
